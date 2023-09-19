@@ -1,0 +1,94 @@
+/* Dashboard.css */
+
+.dashboard {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background: #000;
+  }
+  
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    cursor: pointer;
+    color: #0f0;
+  }
+  
+  .user-icon {
+    display: block;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .user-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1;
+  }
+  
+  .user-icon:hover .user-dropdown {
+    display: block;
+  }
+  
+  .user-info {
+    font-weight: bold;
+    font-size: smaller;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .content {
+    margin-top: 20px;
+    text-align: center;
+    color: #0f0;
+  }
+  
+  .action-button {
+    background-color: #333;
+    color: #0f0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+  }
+  
+  .action-button:hover {
+   transform: scale(1.25);
+  }
+  
